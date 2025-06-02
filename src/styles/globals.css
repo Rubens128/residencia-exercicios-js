@@ -3,9 +3,9 @@
   --secondary-color: #1e466a;
   --tertiary-color: #ded33d;
   --background-color: #f1f2f6;
+  --secondary-background-color: #fcffed;
   --foreground-color: #ffe7ba;
   --text-color: #2f3542;
-  --secondary-color: #fcffed;
   --text-white: #ffffff;
 
   --shuriken: "TheLastShuriken";
@@ -17,6 +17,10 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+
+* {
+  outline: none;
 }
 
 html,

@@ -1,35 +1,14 @@
-## Componente
+### Rotas autenticadas
 
-- Atributos:
+**Agruar rotas privadas em:** `(private-routes)/`
 
-```tsx
-function Button(props: { name: string }) {
-  const { name } = props;
+- [x] `/` - Allan
+- [x] `/add-contact` - Kaion
+- [x] `/profile` - Gilmas
 
-  return <button>{name}</button>;
-}
+### Rotas públicas
 
-interface ButtonProps {
-  name: string;
-}
+**Agruar rotas públicas em:** `(public-routes)/`
 
-function Button2(props: ButtonProps) {
-  const { name } = props;
-
-  return <button>{name}</button>;
-}
-```
-
-- Utilização:
-
-```tsx
-...
-function Home() {
-  return <>
-    <main>
-    <h1>Home</h1>
-    <Button name="Clique aqui"/>
-    </main>
-  </>
-}
-```
+- [x] `/login` - Allan
+- `/register` - amanda
